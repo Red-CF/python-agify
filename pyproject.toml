@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-agify"
+version = "0.1.0"
+description = "Python's wrapper for Agify API... for some reasone this didn't exist :)"
+authors = ["Red <crojasfer31@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+setuptools = "^74.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
